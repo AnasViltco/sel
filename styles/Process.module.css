@@ -1,0 +1,101 @@
+.background_process
+{
+    background-image: url(../pages/Assets/Images/Selteq.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.button_process_active
+{
+    padding: 4%;
+    border-radius: 10px;
+    background-color: rgb(197, 59, 63);
+    border: 1px solid rgb(197, 59, 63);
+    color: white;
+    font-size: 90%;
+    cursor: pointer;
+    box-shadow: 1px 8px 7px 7px rgba(127, 30, 80, 0.468);
+    width: 100%;
+    
+}
+
+.button_process_one
+{
+    padding: 4%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    font-size: 90%;
+    cursor: pointer;
+    width: 100%;
+}
+
+.heading_process
+{
+    margin-top: 5%;
+    color: white;
+}
+
+.subheading_process
+{
+    color: white;
+    margin-top: 2%;
+    font-weight: 400;
+}
+
+.icon_size
+{
+    font-size: 70%;
+}
+
+.button_right
+{
+    background-color: rgb(197, 59, 63);
+    color: white;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 7px 7px rgba(127, 30, 80, 0.468);
+    border: 1px solid rgb(197, 59, 63);
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    .button_process_active
+    {
+        padding: 4%;
+        border-radius: 10px;
+        background-color: rgb(197, 59, 63);
+        border: 1px solid rgb(197, 59, 63);
+        color: white;
+        font-size: 90%;
+        cursor: pointer;
+        box-shadow: 1px 8px 7px 7px rgba(127, 30, 80, 0.468);
+        width: 100%;
+        margin-top: 5%;
+        
+    }
+    
+    .button_process_one
+    {
+        padding: 4%;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid white;
+        color: white;
+        font-size: 90%;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 5%;
+    }
+  }
+
+
+
+

@@ -1,0 +1,55 @@
+.background_image_crousal
+{
+    background-image: url(../pages/Assets/Images/hand.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.font_security
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: #a6cbea;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: black;
+}
+
+.heading 
+{
+    font-size: 49px!important;
+}
+
+.background_color_black
+{
+    background-color: black !important;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+.solution_heading
+{
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .background_image_crousal
+{
+    background-image: url(../pages/Assets/Images/hand.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding-top: 50%;
+}
+
+  }
